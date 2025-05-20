@@ -80,3 +80,4 @@ The Windows Live Messenger emojis
 
 #### ls -l | awk '{ print "![image]""("$9")"} ' >> out.readmne
 #### wget --accept=gif,png,jpg -r -l 1 -nd "https://web.archive.org/web/20140204231459/http://messenger.msn.com/Resource/Emoticons.aspx" 
+Tue 20 May 2025 10:50:01 AEST
