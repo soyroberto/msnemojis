@@ -57,10 +57,8 @@ The Windows Live Messenger emojis
 ![image](moon.gif)
 ![image](note.gif)
 ![image](omg_smile.gif)
-![image](out.readmne)
 ![image](phone.gif)
 ![image](present.gif)
-![image](README.md)
 ![image](red_smile.gif)
 ![image](regular_smile.gif)
 ![image](rose.gif)
@@ -78,7 +76,5 @@ The Windows Live Messenger emojis
 
 ## Commands to get the emojis + update the README ran on MacOS## 
 
-#### ls -l | awk '{ print "![image]""("$9")"} ' >> out.readmne
 #### wget --accept=gif,png,jpg -r -l 1 -nd "https://web.archive.org/web/20140204231459/http://messenger.msn.com/Resource/Emoticons.aspx" 
-Tue 20 May 2025 10:50:01 AEST
-Tue 20 May 2025 10:54:40 AEST
+#### ls -l | awk '{ print "![image]""("$9")"} ' >> out.readmne
